@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        
+        <link rel = "stylesheet" type = "text/CSS" href = "style.css">    <!--подключение к css файлу style.css-->
+        <title>Главная</title>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>                          <!--у логотипа поменяеться шрифт на Revalia-->
+        <link href="https://fonts.googleapis.com/css2?family=Revalia&display=swap" rel="stylesheet">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>                         <!--шрифт в шапке сайта поменяеться на Roboto-->
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+        <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+        <link rel="manifest" href="favicon/site.webmanifest">
+        <link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#000000">
+        <meta name="msapplication-TileColor" content="#ffffff">
+        <meta name="theme-color" content="#ffffff">  
+
+        <script src="jquery-3.6.0.min.js"></script>
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">  <!--иконки-->
+
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    </head>
+
+
+    <body>
+
+        <header>
+
+            <div class="wrapper">
+
+                <div class="header_wrapper">
+
+                    <div class="header_logo">
+                        <h1 class="header_logo1" id="headerLogo">WD</h1>               <!--логотип WD в шапке сайта-->
+                    </div>
+
+                    <div class="header_menu">
+                        <a class="num1 menu_item" href="#intro">ГЛАВНАЯ</a>                          
+                        <a class="num2 menu_item" href="#about">ОБ АВТОРЕ</a>
+                        <a class="num3 menu_item" href="#skills">РАБОТЫ</a>
+                        <a class="num4 menu_item" href="#process">ПРОЦЕССЫ</a>
+                        <a class="num5 menu_item" href="#footer">КОНТАКТЫ</a>
+
+                    </div>        
+
+                </div>    
+
+            </div>
+        
+        </header>
+
+            
+        <main>
+        
+        <section class="intro" id="intro">
+            
+            <div class="intro_left">
+            <img data-aos="fade-down" src="intro_logo.svg" alt="INTRO" class="intro_img">     <!--картинка -->
+            </div>
+           
+        
+            <div data-aos="fade-down" class="intro_right">
+            <h1 id="myTitle" class="intro_title">
+            ДИЗАЙН И ВЁРСТКА
+            </h1>
+             
+
+            <p data-aos="fade-down" class="intro_text">
+            Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне.
+            Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.
+            </p>
+
+            <button id="myButton" class="intro_button">НАПИСАТЬ МНЕ</button>
+
+            <div id="myModal" class="modal">
+
+                <div class="modal_content">
+
+                    <div id="myClose" class="close">&times;</div>
+
+                    <div class="send_wrapper">
+
+                        <h1 class="modal_title">Хотите веб-сайт?</h1>
+    
+                        <form>
+    
+                            <div class="send_form">
+    
+                                <div>
+                                    <input type="text" class="form1 formstyle" placeholder="Ваше имя">   <!--placeholder он нужен для того чтобы пользователь понял что надо заполнять в поле ввода-->
+                                    <input type="email" class="form2 formstyle" placeholder="Ваша почта"> 
+                                </div>
+    
+                                <textarea cols="30" rows="10" class="form3 formstyle" placeholder="Сообщение"></textarea>
+    
+                                <button class="modal_button">ОТПРАВИТЬ</button>
+    
+                            </div>
+    
+                        </form>
+    
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <section class="about" id="about">
+
+            <div class="wrapper">
+
+                <div class="about_wrapper">
+
+                    <div class="about_block">
+                        <h2 data-aos="fade-down" class="about_title">Обо мне</h2>
+
+                        <p data-aos="fade-down" class="about_text">
+                        Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне.
+                        Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.      <!--текст в секции about-->
+                        </p>
+                    </div>
+
+                </div>
+
+            </div> 
+
+        </section>
+
+        <section class="projects">
+
+            <div class="wrapper">
+                
+                <div class="projects_wrapper">
+
+                    <div data-aos="fade-down" class="projects_block">
+                        <img src="numbers_item.svg" alt="num" class="projects_img">
+                        <img src="numbers_item.svg" alt="num" class="projects_img">
+                        <img src="numbers_item.svg" alt="num" class="projects_img">
+                        <img src="numbers_item.svg" alt="num" class="projects_img">
+                        <img src="numbers_item.svg" alt="num" class="projects_img">
+                        <img src="numbers_item.svg" alt="num" class="projects_img">
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="skills">
+
+            <div class="wrapper">
+
+                <div class="skills_wrapper">
+
+                    <div data-aos="fade-down" class="skills_left">
+
+                    <h3 class="skills_title">Мои навыки</h3>    
+                    <h4 class="skill skill_1">Python</h4>
+                    <h4 class="skill skill_2">Html</h4>
+                    <h4 class="skill skill_3">Css</h4>
+                    <h4 class="skill skill_4">JavaScript</h4>
+
+                    </div>
+
+                    <div class="skills_right">
+                        <img data-aos="fade-down" src="photo_skills_right.svg" class="skills_img">
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="process" id="process">
+
+            <div class="wrapper">
+
+                <div class="process_wrapper">
+
+                    <div class="process_block">
+
+                        <h1 data-aos="fade-down" class="process_title">
+                            Как я работаю
+                        </h1>
+
+                        <p data-aos="fade-down" class="process_text">
+                            Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне.
+                            Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.
+                        </p>
+                    </div>
+
+                    <video data-aos="fade-down" src="verstka.mp4" class="process_video" controls="controls"></video>
+
+                    <video data-aos="fade-down" src="verstka_sz.mp4" class="process_video" controls="controls"></video>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <section>
+
+            <div data-aos="fade-down" class="gallery column">
+
+                <div class="gallery_str column">
+
+                    <a href="gallery1.png" class="lightzoom">
+                        <img src="gallery1.png" alt="Картинка1" class="gallary_img">
+                    </a>
+
+                    <a href="gallery2.png" class="lightzoom">
+                        <img src="gallery2.png" alt="Картинка2" class="gallary_img">
+                    </a>
+
+                    <a href="gallery1.png" class="lightzoom">
+                        <img src="gallery1.png" alt="Картинка1" class="gallary_img">
+                    </a>
+
+                    <a href="gallery2.png" class="lightzoom">
+                        <img src="gallery2.png" alt="Картинка2" class="gallary_img">
+                    </a>
+
+                </div>
+
+                <div data-aos="fade-down" class="gallery_str">
+
+                    <a href="gallery1.png" class="lightzoom">
+                        <figure><img src="gallery1.png" alt="Картинка1" class="gallary_img"></figure>
+                    </a>
+
+                    <a href="gallery2.png" class="lightzoom">
+                        <figure><img src="gallery2.png" alt="Картинка2" class="gallary_img"></figure>
+                    </a>
+
+                    <a href="gallery1.png" class="lightzoom">
+                        <figure><img src="gallery1.png" alt="Картинка1" class="gallary_img"></figure>
+                    </a>
+
+                    <a href="gallery2.png" class="lightzoom">
+                        <figure><img src="gallery2.png" alt="Картинка2" class="gallary_img"></figure>
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="send">
+
+            <div class="wrapper">
+
+                <div class="send_wrapper">
+
+                    <h1 class="send_title">Хотите веб-сайт?</h1>
+
+                    <p class="send_text">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне.
+                    Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.</p>
+
+                    <form>
+
+                        <div class="send_form">
+
+                            <div>
+                                <input type="text" class="form1 formstyle" placeholder="Ваше имя">   <!--placeholder он нужен для того чтобы пользователь понял что надо заполнять в поле ввода-->
+                                <input type="email" class="form2 formstyle" placeholder="Ваша почта"> 
+                            </div>
+
+                            <textarea cols="30" rows="10" class="form3 formstyle" placeholder="Сообщение"></textarea>
+
+                            <button class="modal_button">ОТПРАВИТЬ</button>
+
+                        </div>
+
+                    </form>
+
+                </div>
+        
+            </div>
+
+        </section>
+
+        </main>
+
+        <footer id="footer">
+
+            <div class="wrapper">
+
+                <div class="footer_wrapper">
+
+                    <div class="left_footer">
+
+                        <div class="container">
+
+                            <ul class="social">
+                                <a target="_blank_" class="lite" href="https://api.whatsapp.com/send/?phone=+79126806888&text&app_absent=0 "><li class="social__items whatsapp">
+                                <i class="fa fa-whatsapp"></i>
+                                </li></a>
+    
+                                <a target="_blank_" class="lite" href="https://vk.com/id507960536"><li class="social__items vk">
+                                    <i class="fa fa-vk"></i>
+                                </li></a>
+    
+                                <a target="_blank_" class="lite" href="https://www.instagram.com/vovaklevsov/"><li class="social__items instagram">
+                                    <i class="fa fa-instagram"></i>
+                                </li></a>
+    
+                            </ul>
+                
+                        </div>
+
+                    </div>
+
+                    <div class="right_footer">
+                        <h3 class="footer_title">Вова Клевцов</h3>
+                        <p class="footer_text">(c) 2021. Все права защищены.</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </footer>
+        
+
+
+        <link rel="stylesheet" href="lightzoom/style.css"> 
+        <script src="lightzoom/lightzoom.js"></script>
+        <script src="myscript.js"></script>
+        <script>jQuery('.lightzoom').lightzoom({speed: 400, viewTitle: true, isOverlayClickClosing: true});</script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+        <script>
+            AOS.init();
+        </script>
+
+    </body> 
+    
+<html>      
